@@ -1,5 +1,5 @@
 <?php
-    include 'Curl.php';
+    include 'core/Curl.php';
 
     function yield_curl_multi($urls){
         $curl = new Curl();
